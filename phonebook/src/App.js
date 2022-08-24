@@ -21,10 +21,11 @@ const App = () => {
           <button type="submit">add</button>
         </div>
       </form>
+
       <h2>Numbers</h2>
       <div> {
         // Map makes new empty array and "x inside of paranthesis ma chai sabai array ko elements one by one ahucha 
-        // .<li> le bulllet ko form ma ahucha "
+        // .<li> le bulllet ko form ma ahucha.... "
        
         persons.map((x)=>(
           <li>{x.name} {x.number}</li>
